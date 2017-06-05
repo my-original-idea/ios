@@ -6,7 +6,7 @@ import {
   NavigatorIOS
 } from 'react-native';
 
-import Banner from '../pages/index/Banner.js';
+import Index from '../pages/index/Index.js';
 
 export default class Nav extends Component {
 
@@ -18,7 +18,7 @@ export default class Nav extends Component {
     return (
       <NavigatorIOS
         initialRoute={{
-          component: Banner,
+          component: Index,
           title: this.props.title,
           url: this.props.url
         }}
