@@ -75,18 +75,21 @@ const styles = StyleSheet.create({
   container:{
     backgroundColor:'yellow',
     width:'100%',
-    height:'100%',
+    height:'60%',
     marginTop:10
   },
   listView:{
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
     backgroundColor:'#E9EAED',
-    width:'100%',
+    width:'100%'
   },
   item:{
+    width:60,
     borderRadius: 5,
     overflow:'hidden',
     backgroundColor:'#FFF',
-    height:100
   },
   img:{
     width:100,
